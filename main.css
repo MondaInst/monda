@@ -1,7 +1,7 @@
 :root{
-    --background-color: #16FFBD;
-    --primary-color: #000;
-    --highlight-color: #FF8DAC;
+    --background-color: #bfbfbf;  /*variable del color */
+    --primary-color: #000; /*Color primario*/
+    --highlight-color: #808080; /* color secundario*/
 }
 
 *{
@@ -211,13 +211,13 @@ h3{
 
 .grid .item img{
     width: 101%;
-    margin-top: -60px;
-    transform: skewY(10deg) scale(1.2,1.2);
+    margin-top: -45px;
+    transform: skewY(10deg) scale(1.2,1.2); /*son los grados contrarios reducir la imagen*/
     transition: all 0.075s;
 }
 
 .grid .item:hover img{
-    transform: skewY(10deg) scale(1.4,1.4);
+    transform: skewY(10deg) scale(1.4,1.4); /*al pasar el cursor cambia el tamaño*/
 }
 
 .grid .item .bg-hover{
